@@ -17,8 +17,9 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         setResult(data.results);
+        console.log(url)
       });
-  }, []);
+  }, [url]);
 
 
 
